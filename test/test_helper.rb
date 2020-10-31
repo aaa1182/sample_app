@@ -12,3 +12,9 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+class Rack::Test::CookieJar
+  def signed
+    self
+  end
+end
