@@ -71,7 +71,7 @@ Rails.application.configure do
 
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'https://dashboard.heroku.com/apps/afternoon-hollows-73404.herokuapp.com'
+  host = 'https://afternoon-hollows-73404.herokuapp.com/'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
